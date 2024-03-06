@@ -1,0 +1,25 @@
+.ourService {
+	text-align: right;
+
+	max-width: 521px;
+
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+
+	.title {
+		margin-bottom: 7px;
+		display: flex;
+		justify-content: end;
+		gap: 27px;
+		align-items: center;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 130%;
+		margin-right: -10px;
+	}
+	p {
+		
+	}
+
+}

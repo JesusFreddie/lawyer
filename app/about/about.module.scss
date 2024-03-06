@@ -1,0 +1,13 @@
+.about {
+	&__row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.text {
+		max-width: 483px;
+	}
+	p {
+		margin-bottom: 20px;
+	}
+}

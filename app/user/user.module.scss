@@ -1,0 +1,45 @@
+.user {
+	&__row {
+		display: flex;
+		align-items: start;
+		justify-content: space-between;
+		gap: 31px;
+	}
+
+	.nav {
+		box-shadow: 0 4px 20px 5px rgba(0, 0, 0, 0.25);
+		background: #fff;
+
+		button {
+			width: 277px;
+			padding: 23px 20px;
+			border-bottom: 1px solid #d2d2d2;
+			background: #fff;
+			text-align: left;
+			transition: .1s ease-in-out;
+
+			&:hover {
+				background-color: #eeeeee;
+			}
+
+			&.active {
+				border-left: 5px solid #4b7dfe;
+			}
+		}
+	}
+
+	.content {
+		flex: 1;
+		box-shadow: 0 4px 20px 5px rgba(0, 0, 0, 0.25);
+		background: rgba(255, 255, 255, 0.19);
+		min-height: 575px;
+	}
+	
+}
+.errorLogin {
+	text-align: center;
+	font-weight: 700;
+	.link {
+		color: #4c56d9;
+	}
+}

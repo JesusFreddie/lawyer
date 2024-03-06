@@ -1,0 +1,27 @@
+.button {
+	color: var(--color-btn-text);
+	background-color: var(--accent-color);
+	padding: 16px 27px;
+	font-weight: 500;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+
+	&.header {
+		padding: 16px 68px !important;
+	}
+
+	&:hover {
+		opacity: .95;
+	}
+}
+
+.title {
+	font-weight: 600;
+	font-size: 45px;
+	line-height: 120%;
+	letter-spacing: 0.01em;
+	color: #000;
+	margin-bottom: 61px;
+}
+

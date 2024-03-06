@@ -1,0 +1,16 @@
+.nav {
+	font-weight: 500;
+	font-size: 16px;
+	color: #000;
+
+	ul {
+		display: flex;
+		align-items: center;
+		gap: 32px;
+	}
+
+	li.active {
+		color: #4c56d9;
+		text-shadow: 0 0 16px 0 #4c56d9;
+	}
+}

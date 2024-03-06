@@ -1,0 +1,17 @@
+.lawyer {
+	padding: 20px 20px;
+	th, td {
+		border-right: 1px solid #000;
+		text-align: left;
+	}
+}
+.user {
+	margin-top: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	table {
+		width: 100%;
+	}
+	
+}

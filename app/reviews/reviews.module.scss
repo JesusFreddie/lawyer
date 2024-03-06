@@ -1,0 +1,17 @@
+.card {
+	max-width: max-content;
+	padding: 15px 20px;
+	box-shadow: 0 4px 29px 3px rgba(0, 0, 0, 0.25);
+
+	&__title {
+		font-weight: 700;
+		margin-bottom: 15px;
+	}
+}
+
+.reviews__content {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+

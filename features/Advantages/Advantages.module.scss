@@ -1,0 +1,19 @@
+.advantages {
+	margin-top: 150px;
+	margin-bottom: 200px;
+	&__row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	ul {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+		li {
+			display: flex;
+			align-items: center;
+			gap: 20px;
+		}
+	}
+}

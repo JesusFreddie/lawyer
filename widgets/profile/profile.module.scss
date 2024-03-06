@@ -1,0 +1,50 @@
+.profile {
+
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+
+	.user {
+		padding: 30px 35px;
+		display: flex;
+		align-items: center;
+		gap: 25px;
+		font-weight: 400;
+		font-size: 16px;
+		color: #000;
+
+		.info {
+			display: flex;
+			justify-content: space-between;
+			align-items: start;
+			flex: 1;
+		}
+
+		.text {
+			display: flex;
+			flex-direction: column;
+			gap: 11px;
+		}
+
+		.fullName {
+			font-weight: 400;
+			font-size: 24px;
+			color: #000;
+		}
+
+		.editProfil {
+			color: #4c56d9;
+		}
+	}
+
+	.affairs {
+		text-align: center;
+	}
+
+	.avatar {
+		width: 135px;
+		height: 135px;
+		background: #d9d9d9;
+		border-radius: 5px;
+	}
+}

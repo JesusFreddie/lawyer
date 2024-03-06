@@ -1,0 +1,15 @@
+.header {
+	padding: 20px 0;
+	margin-bottom: 80px;
+
+	&__row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.user {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+	}
+}
